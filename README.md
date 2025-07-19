@@ -1,19 +1,3 @@
-# 2021S1_JUNE_WD_13
-
-## Career Finder System
-
-## Group Details
-
-Member Details:
-
-Name | Student ID | Username 
---- | --- | --- 
-Member 01 | IT19963884 | dilshanhiruna
-Member 02 | IT19964706 | 99hash63 
-Member 03 | IT19972244 | thiyuni 
-Member 04 | IT19993966 | PabasaraPalihena 
-
-
 ## Project Description
 
 CareerFinder is a web application that can be used to search jobs, companies, interview questions online and manage your resumes through the site itself.
