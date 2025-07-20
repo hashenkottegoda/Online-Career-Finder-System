@@ -1,34 +1,98 @@
-## Project Description
+# 💼 CareerFinder
 
-CareerFinder is a web application that can be used to search jobs, companies, interview questions online and manage your resumes through the site itself.
-And this app allows employers to post their job, company advertiesment and manage them as well. Employees can post their interview experiences through
-the site and help the future employees.
+**CareerFinder** is a full-featured job portal web application where users can:
 
-## Technologies
+- 🔍 Search for **jobs**, **companies**, and **interview questions**
+- 📄 Upload and manage **resumes**
+- 🧑‍💼 Share **interview experiences** to guide future applicants
+- 🏢 Employers can **post jobs**, **advertise companies**, and manage listings
 
-MEAN STACK
+---
 
-MongoDB - Database\
-Express - Back-end framework\
-Angular - Front-end framework\
-NodeJS - Back-end JS runtime environment
+## 🧰 Tech Stack
 
-## How to get started with your app
+Built with the **MEAN Stack**:
 
-Prerequisites
-1. NodeJs Installed
-2. Angular CLI Installed
+| Technology | Role                          |
+|------------|-------------------------------|
+| 🟢 MongoDB | NoSQL Database                 |
+| 🚂 Express | Backend Framework (Node.js)   |
+| 🅰️ Angular | Frontend Framework (TypeScript) |
+| 🟨 Node.js | Backend JavaScript Runtime     |
 
-Procedure of setting up prerequisites and run the project
-1. Install NodeJs through  [Node.js](https://nodejs.org/en/)
-2. Install Angular CLI, Open the terminal and run the command - ( *npm install -g @angular/cli* )
-3. Clone the repository
-4. Install server-side dependencies
-   - Navigate to **server** directory
-   - Run command - ( *npm install* or *npm i* )
-5. Install client-side dependencies
-   - Navigate to **client** directory
-   - Run command - ( *npm install* or *npm i* )
-6. Run client & server concurrently
-   - Navigate to **client** directory
-   - Run command - ( *npm run both* )
+---
+
+## 🚀 Getting Started
+
+### ✅ Prerequisites
+
+- **Node.js** installed: [Node.js official site](https://nodejs.org/)
+- **Angular CLI** installed globally:
+  ```bash
+  npm install -g @angular/cli
+  ```
+
+---
+
+### 📦 Setup Instructions
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/your-username/careerfinder.git
+   cd careerfinder
+   ```
+
+2. **Install server-side dependencies**:
+   ```bash
+   cd server
+   npm install
+   ```
+
+3. **Install client-side dependencies**:
+   ```bash
+   cd ../client
+   npm install
+   ```
+
+4. **Run client & server concurrently**:
+   ```bash
+   npm run both
+   ```
+
+   > This script will start both the Angular frontend and the Express backend at once.
+
+---
+
+## 🧪 Features
+
+- **Job Search** with filters
+- **Resume Upload & Management**
+- **Company Directory**
+- **Interview Question Bank**
+- **Employer Dashboard** for job posting and advert management
+- **User Feedback** via interview experience posts
+
+---
+
+## 📁 Folder Structure (Simplified)
+
+```
+careerfinder/
+├── client/       # Angular frontend
+├── server/       # Express backend
+├── README.md
+```
+
+---
+
+## 📌 Notes
+
+- The project uses `concurrently` to run backend and frontend in one terminal.
+- Make sure MongoDB is running before starting the app.
+- Use `.env` for configuring backend variables (e.g., DB URL, ports).
+
+---
+
+## 📃 License
+
+This project is intended for academic and professional learning purposes.
